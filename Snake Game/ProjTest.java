@@ -18,7 +18,7 @@ static AudioInputStream stream;
 static Clip music;
 
 public static void main(String...args)
-{/*
+{
 file = new File("ProjTest_beginning.wav");
 try {
 stream = AudioSystem.getAudioInputStream(file);
@@ -46,7 +46,7 @@ e.printStackTrace();
 }
 music.start(); //Start the music
 music.loop(Clip.LOOP_CONTINUOUSLY); //Loop the music
-*/
+
 JFrame j = new JFrame();  //JFrame is the window; window is a depricated class
 MyPanelProjTest m = new MyPanelProjTest();
 j.setSize(m.getSize());
